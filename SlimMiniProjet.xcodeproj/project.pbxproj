@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5214C4FF239B4699003873B9 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5214C4FE239B4699003873B9 /* HealthManager.swift */; };
+		5254082A239EEFFD0056E163 /* CustomTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52540829239EEFFD0056E163 /* CustomTabbarController.swift */; };
+		5254082E239F0F6E0056E163 /* MyexpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5254082D239F0F6E0056E163 /* MyexpViewController.swift */; };
+		5273A01223B8802D00A3650E /* HealthKitSetupAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273A01123B8802D00A3650E /* HealthKitSetupAssistant.swift */; };
+		5273A01423B880AE00A3650E /* ProfileDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273A01323B880AE00A3650E /* ProfileDataStore.swift */; };
+		5273A01623B8813700A3650E /* WorkoutDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273A01523B8813700A3650E /* WorkoutDataStore.swift */; };
+		5273A01823B881F500A3650E /* HKBiologicalSex+StringRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273A01723B881F500A3650E /* HKBiologicalSex+StringRepresentation.swift */; };
+		5273A01A23B889F600A3650E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273A01923B889F600A3650E /* ProfileViewController.swift */; };
+		528FEE3823B40FC700126646 /* DietViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528FEE3723B40FC700126646 /* DietViewController.swift */; };
+		528FEE3A23B4108400126646 /* DietDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528FEE3923B4108400126646 /* DietDetailsViewController.swift */; };
+		529858A623A3127100998482 /* CellVideoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529858A523A3127100998482 /* CellVideoViewCell.swift */; };
+		529858A823A318FE00998482 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529858A723A318FE00998482 /* VideoViewController.swift */; };
+		52EBE05023B89844007BEE47 /* UserHealthProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBE04F23B89844007BEE47 /* UserHealthProfile.swift */; };
+		52EE957D23BADEF300E1F5D3 /* HealthDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE957C23BADEF300E1F5D3 /* HealthDataType.swift */; };
+		52EE957F23BAE20F00E1F5D3 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE957E23BAE20E00E1F5D3 /* Util.swift */; };
+		52EE958123BAFD0D00E1F5D3 /* RecordMainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE958023BAFD0D00E1F5D3 /* RecordMainTableViewCell.swift */; };
+		541E4C74238C54F600757F37 /* BG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541E4C73238C54F600757F37 /* BG.swift */; };
+		541E4C76238C5F4200757F37 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541E4C75238C5F4200757F37 /* FoodViewController.swift */; };
+		541E4C78238C61BF00757F37 /* WaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541E4C77238C61BF00757F37 /* WaterViewController.swift */; };
+		541E4C7A238C61D100757F37 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541E4C79238C61D100757F37 /* WorkoutViewController.swift */; };
+		545E8A3523AA96C700A20D15 /* SAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545E8A3423AA96C700A20D15 /* SAButton.swift */; };
+		545E8A3723AA984800A20D15 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545E8A3623AA984800A20D15 /* Constants.swift */; };
+		545E8A3923AA99B100A20D15 /* SATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545E8A3823AA99B100A20D15 /* SATextField.swift */; };
+		546E87E323898CFF00C934F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546E87E223898CFF00C934F6 /* AppDelegate.swift */; };
+		546E87E523898D0000C934F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546E87E423898D0000C934F6 /* ViewController.swift */; };
+		546E87E823898D0000C934F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546E87E623898D0000C934F6 /* Main.storyboard */; };
+		546E87EB23898D0000C934F6 /* SlimMiniProjet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 546E87E923898D0000C934F6 /* SlimMiniProjet.xcdatamodeld */; };
+		546E87ED23898D0400C934F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546E87EC23898D0400C934F6 /* Assets.xcassets */; };
+		546E87F023898D0400C934F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546E87EE23898D0400C934F6 /* LaunchScreen.storyboard */; };
+		54904AD223999E6900E386E1 /* StepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54904AD123999E6900E386E1 /* StepsViewController.swift */; };
+		54904AD423999E8A00E386E1 /* meViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54904AD323999E8A00E386E1 /* meViewController.swift */; };
+		54AB631B2389A603001577CE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AB631A2389A602001577CE /* HomeViewController.swift */; };
+		54AB631D2389A6B9001577CE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AB631C2389A6B9001577CE /* RegisterViewController.swift */; };
+		54C131CA2395AF070068F089 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C131C92395AF070068F089 /* HealthKit.framework */; };
+		54D237BF23CB92FD00C6B3F8 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = 54D237BE23CB92FD00C6B3F8 /* GoogleService-Info (2).plist */; };
+		54D237C123CBB4E500C6B3F8 /* WorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D237C023CBB4E500C6B3F8 /* WorkoutSession.swift */; };
+		54D237C323CBB58800C6B3F8 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D237C223CBB58800C6B3F8 /* Workout.swift */; };
+		54D237C523CBB8AD00C6B3F8 /* WorkoutSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D237C423CBB8AD00C6B3F8 /* WorkoutSessionViewController.swift */; };
+		876DB023E695798736F8563D /* Pods_SlimMiniProjet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F730A457E57176C39CC2D7 /* Pods_SlimMiniProjet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		132648A0E2CB6BC55068C5FD /* Pods-SlimMiniProjet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlimMiniProjet.release.xcconfig"; path = "Target Support Files/Pods-SlimMiniProjet/Pods-SlimMiniProjet.release.xcconfig"; sourceTree = "<group>"; };
+		1A0E23F0BFEABC10D417A04F /* Pods-SlimMiniProjet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlimMiniProjet.debug.xcconfig"; path = "Target Support Files/Pods-SlimMiniProjet/Pods-SlimMiniProjet.debug.xcconfig"; sourceTree = "<group>"; };
+		5214C4FE239B4699003873B9 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		52540829239EEFFD0056E163 /* CustomTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarController.swift; sourceTree = "<group>"; };
+		5254082D239F0F6E0056E163 /* MyexpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyexpViewController.swift; sourceTree = "<group>"; };
+		5273A01123B8802D00A3650E /* HealthKitSetupAssistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitSetupAssistant.swift; sourceTree = "<group>"; };
+		5273A01323B880AE00A3650E /* ProfileDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataStore.swift; sourceTree = "<group>"; };
+		5273A01523B8813700A3650E /* WorkoutDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDataStore.swift; sourceTree = "<group>"; };
+		5273A01723B881F500A3650E /* HKBiologicalSex+StringRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HKBiologicalSex+StringRepresentation.swift"; sourceTree = "<group>"; };
+		5273A01923B889F600A3650E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		528FEE3723B40FC700126646 /* DietViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietViewController.swift; sourceTree = "<group>"; };
+		528FEE3923B4108400126646 /* DietDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietDetailsViewController.swift; sourceTree = "<group>"; };
+		529858A523A3127100998482 /* CellVideoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellVideoViewCell.swift; sourceTree = "<group>"; };
+		529858A723A318FE00998482 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		52EBE04F23B89844007BEE47 /* UserHealthProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHealthProfile.swift; sourceTree = "<group>"; };
+		52EE957C23BADEF300E1F5D3 /* HealthDataType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataType.swift; sourceTree = "<group>"; };
+		52EE957E23BAE20E00E1F5D3 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		52EE958023BAFD0D00E1F5D3 /* RecordMainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordMainTableViewCell.swift; sourceTree = "<group>"; };
+		541E4C73238C54F600757F37 /* BG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BG.swift; sourceTree = "<group>"; };
+		541E4C75238C5F4200757F37 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		541E4C77238C61BF00757F37 /* WaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterViewController.swift; sourceTree = "<group>"; };
+		541E4C79238C61D100757F37 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		545E8A3423AA96C700A20D15 /* SAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAButton.swift; sourceTree = "<group>"; };
+		545E8A3623AA984800A20D15 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		545E8A3823AA99B100A20D15 /* SATextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATextField.swift; sourceTree = "<group>"; };
+		546E87DF23898CFF00C934F6 /* SlimMiniProjet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlimMiniProjet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		546E87E223898CFF00C934F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		546E87E423898D0000C934F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		546E87E723898D0000C934F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		546E87EA23898D0000C934F6 /* SlimMiniProjet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SlimMiniProjet.xcdatamodel; sourceTree = "<group>"; };
+		546E87EC23898D0400C934F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		546E87EF23898D0400C934F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		546E87F123898D0400C934F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54904AD123999E6900E386E1 /* StepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsViewController.swift; sourceTree = "<group>"; };
+		54904AD323999E8A00E386E1 /* meViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meViewController.swift; sourceTree = "<group>"; };
+		54AB631A2389A602001577CE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		54AB631C2389A6B9001577CE /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		54C131C82395AF060068F089 /* SlimMiniProjet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SlimMiniProjet.entitlements; sourceTree = "<group>"; };
+		54C131C92395AF070068F089 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		54D237BE23CB92FD00C6B3F8 /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (2).plist"; sourceTree = "<group>"; };
+		54D237C023CBB4E500C6B3F8 /* WorkoutSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSession.swift; sourceTree = "<group>"; };
+		54D237C223CBB58800C6B3F8 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		54D237C423CBB8AD00C6B3F8 /* WorkoutSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSessionViewController.swift; sourceTree = "<group>"; };
+		91F730A457E57176C39CC2D7 /* Pods_SlimMiniProjet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlimMiniProjet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		546E87DC23898CFF00C934F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876DB023E695798736F8563D /* Pods_SlimMiniProjet.framework in Frameworks */,
+				54C131CA2395AF070068F089 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5273A01023B87F7600A3650E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				546E87E223898CFF00C934F6 /* AppDelegate.swift */,
+				5273A01123B8802D00A3650E /* HealthKitSetupAssistant.swift */,
+				5273A01323B880AE00A3650E /* ProfileDataStore.swift */,
+				5273A01523B8813700A3650E /* WorkoutDataStore.swift */,
+				52EBE04F23B89844007BEE47 /* UserHealthProfile.swift */,
+				52EE957C23BADEF300E1F5D3 /* HealthDataType.swift */,
+				52EE957E23BAE20E00E1F5D3 /* Util.swift */,
+				54D237C023CBB4E500C6B3F8 /* WorkoutSession.swift */,
+				54D237C223CBB58800C6B3F8 /* Workout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		545E8A3023AA952600A20D15 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				546E87E423898D0000C934F6 /* ViewController.swift */,
+				54AB631A2389A602001577CE /* HomeViewController.swift */,
+				54AB631C2389A6B9001577CE /* RegisterViewController.swift */,
+				541E4C75238C5F4200757F37 /* FoodViewController.swift */,
+				541E4C77238C61BF00757F37 /* WaterViewController.swift */,
+				541E4C79238C61D100757F37 /* WorkoutViewController.swift */,
+				529858A723A318FE00998482 /* VideoViewController.swift */,
+				54904AD323999E8A00E386E1 /* meViewController.swift */,
+				54904AD123999E6900E386E1 /* StepsViewController.swift */,
+				5254082D239F0F6E0056E163 /* MyexpViewController.swift */,
+				528FEE3723B40FC700126646 /* DietViewController.swift */,
+				528FEE3923B4108400126646 /* DietDetailsViewController.swift */,
+				5273A01923B889F600A3650E /* ProfileViewController.swift */,
+				54D237C423CBB8AD00C6B3F8 /* WorkoutSessionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		545E8A3123AA956700A20D15 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				541E4C73238C54F600757F37 /* BG.swift */,
+				545E8A3423AA96C700A20D15 /* SAButton.swift */,
+				545E8A3623AA984800A20D15 /* Constants.swift */,
+				545E8A3823AA99B100A20D15 /* SATextField.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		545E8A3223AA95FE00A20D15 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				529858A523A3127100998482 /* CellVideoViewCell.swift */,
+				52540829239EEFFD0056E163 /* CustomTabbarController.swift */,
+				52EE958023BAFD0D00E1F5D3 /* RecordMainTableViewCell.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		545E8A3323AA962A00A20D15 /* HealthKit */ = {
+			isa = PBXGroup;
+			children = (
+				5273A01723B881F500A3650E /* HKBiologicalSex+StringRepresentation.swift */,
+			);
+			path = HealthKit;
+			sourceTree = "<group>";
+		};
+		546E87D623898CFF00C934F6 = {
+			isa = PBXGroup;
+			children = (
+				546E87E123898CFF00C934F6 /* SlimMiniProjet */,
+				546E87E023898CFF00C934F6 /* Products */,
+				E610FD2D8BAA970E48B7502E /* Pods */,
+				9265107BBCCECFE6F20657A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		546E87E023898CFF00C934F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				546E87DF23898CFF00C934F6 /* SlimMiniProjet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		546E87E123898CFF00C934F6 /* SlimMiniProjet */ = {
+			isa = PBXGroup;
+			children = (
+				54D237BE23CB92FD00C6B3F8 /* GoogleService-Info (2).plist */,
+				5273A01023B87F7600A3650E /* Models */,
+				545E8A3323AA962A00A20D15 /* HealthKit */,
+				5214C4FE239B4699003873B9 /* HealthManager.swift */,
+				545E8A3223AA95FE00A20D15 /* Classes */,
+				545E8A3123AA956700A20D15 /* CustomViews */,
+				545E8A3023AA952600A20D15 /* ViewControllers */,
+				54C131C82395AF060068F089 /* SlimMiniProjet.entitlements */,
+				546E87E623898D0000C934F6 /* Main.storyboard */,
+				546E87EC23898D0400C934F6 /* Assets.xcassets */,
+				546E87EE23898D0400C934F6 /* LaunchScreen.storyboard */,
+				546E87F123898D0400C934F6 /* Info.plist */,
+				546E87E923898D0000C934F6 /* SlimMiniProjet.xcdatamodeld */,
+			);
+			path = SlimMiniProjet;
+			sourceTree = "<group>";
+		};
+		9265107BBCCECFE6F20657A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54C131C92395AF070068F089 /* HealthKit.framework */,
+				91F730A457E57176C39CC2D7 /* Pods_SlimMiniProjet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E610FD2D8BAA970E48B7502E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A0E23F0BFEABC10D417A04F /* Pods-SlimMiniProjet.debug.xcconfig */,
+				132648A0E2CB6BC55068C5FD /* Pods-SlimMiniProjet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		546E87DE23898CFF00C934F6 /* SlimMiniProjet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546E87F423898D0400C934F6 /* Build configuration list for PBXNativeTarget "SlimMiniProjet" */;
+			buildPhases = (
+				6F090999F6AD185D9C8092C9 /* [CP] Check Pods Manifest.lock */,
+				546E87DB23898CFF00C934F6 /* Sources */,
+				546E87DC23898CFF00C934F6 /* Frameworks */,
+				546E87DD23898CFF00C934F6 /* Resources */,
+				123F13090EE0A8859FBDD60A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlimMiniProjet;
+			productName = SlimMiniProjet;
+			productReference = 546E87DF23898CFF00C934F6 /* SlimMiniProjet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		546E87D723898CFF00C934F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ESPRIT;
+				TargetAttributes = {
+					546E87DE23898CFF00C934F6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 546E87DA23898CFF00C934F6 /* Build configuration list for PBXProject "SlimMiniProjet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 546E87D623898CFF00C934F6;
+			productRefGroup = 546E87E023898CFF00C934F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				546E87DE23898CFF00C934F6 /* SlimMiniProjet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		546E87DD23898CFF00C934F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D237BF23CB92FD00C6B3F8 /* GoogleService-Info (2).plist in Resources */,
+				546E87F023898D0400C934F6 /* LaunchScreen.storyboard in Resources */,
+				546E87ED23898D0400C934F6 /* Assets.xcassets in Resources */,
+				546E87E823898D0000C934F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		123F13090EE0A8859FBDD60A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SlimMiniProjet/Pods-SlimMiniProjet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SlimMiniProjet/Pods-SlimMiniProjet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SlimMiniProjet/Pods-SlimMiniProjet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F090999F6AD185D9C8092C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SlimMiniProjet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		546E87DB23898CFF00C934F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EBE05023B89844007BEE47 /* UserHealthProfile.swift in Sources */,
+				546E87EB23898D0000C934F6 /* SlimMiniProjet.xcdatamodeld in Sources */,
+				52EE958123BAFD0D00E1F5D3 /* RecordMainTableViewCell.swift in Sources */,
+				54D237C323CBB58800C6B3F8 /* Workout.swift in Sources */,
+				545E8A3723AA984800A20D15 /* Constants.swift in Sources */,
+				545E8A3523AA96C700A20D15 /* SAButton.swift in Sources */,
+				541E4C76238C5F4200757F37 /* FoodViewController.swift in Sources */,
+				54AB631D2389A6B9001577CE /* RegisterViewController.swift in Sources */,
+				541E4C7A238C61D100757F37 /* WorkoutViewController.swift in Sources */,
+				52EE957F23BAE20F00E1F5D3 /* Util.swift in Sources */,
+				5273A01A23B889F600A3650E /* ProfileViewController.swift in Sources */,
+				529858A623A3127100998482 /* CellVideoViewCell.swift in Sources */,
+				5254082A239EEFFD0056E163 /* CustomTabbarController.swift in Sources */,
+				541E4C74238C54F600757F37 /* BG.swift in Sources */,
+				54D237C123CBB4E500C6B3F8 /* WorkoutSession.swift in Sources */,
+				5273A01223B8802D00A3650E /* HealthKitSetupAssistant.swift in Sources */,
+				546E87E523898D0000C934F6 /* ViewController.swift in Sources */,
+				52EE957D23BADEF300E1F5D3 /* HealthDataType.swift in Sources */,
+				529858A823A318FE00998482 /* VideoViewController.swift in Sources */,
+				546E87E323898CFF00C934F6 /* AppDelegate.swift in Sources */,
+				54904AD223999E6900E386E1 /* StepsViewController.swift in Sources */,
+				545E8A3923AA99B100A20D15 /* SATextField.swift in Sources */,
+				541E4C78238C61BF00757F37 /* WaterViewController.swift in Sources */,
+				5214C4FF239B4699003873B9 /* HealthManager.swift in Sources */,
+				528FEE3823B40FC700126646 /* DietViewController.swift in Sources */,
+				5254082E239F0F6E0056E163 /* MyexpViewController.swift in Sources */,
+				5273A01623B8813700A3650E /* WorkoutDataStore.swift in Sources */,
+				54D237C523CBB8AD00C6B3F8 /* WorkoutSessionViewController.swift in Sources */,
+				5273A01823B881F500A3650E /* HKBiologicalSex+StringRepresentation.swift in Sources */,
+				5273A01423B880AE00A3650E /* ProfileDataStore.swift in Sources */,
+				528FEE3A23B4108400126646 /* DietDetailsViewController.swift in Sources */,
+				54904AD423999E8A00E386E1 /* meViewController.swift in Sources */,
+				54AB631B2389A603001577CE /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		546E87E623898D0000C934F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				546E87E723898D0000C934F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		546E87EE23898D0400C934F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				546E87EF23898D0400C934F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		546E87F223898D0400C934F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		546E87F323898D0400C934F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		546E87F523898D0400C934F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A0E23F0BFEABC10D417A04F /* Pods-SlimMiniProjet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SlimMiniProjet/SlimMiniProjet.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G96V29LG5G;
+				INFOPLIST_FILE = SlimMiniProjet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SIM4.SlimFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		546E87F623898D0400C934F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 132648A0E2CB6BC55068C5FD /* Pods-SlimMiniProjet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SlimMiniProjet/SlimMiniProjet.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G96V29LG5G;
+				INFOPLIST_FILE = SlimMiniProjet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SIM4.SlimFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		546E87DA23898CFF00C934F6 /* Build configuration list for PBXProject "SlimMiniProjet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546E87F223898D0400C934F6 /* Debug */,
+				546E87F323898D0400C934F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		546E87F423898D0400C934F6 /* Build configuration list for PBXNativeTarget "SlimMiniProjet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546E87F523898D0400C934F6 /* Debug */,
+				546E87F623898D0400C934F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		546E87E923898D0000C934F6 /* SlimMiniProjet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				546E87EA23898D0000C934F6 /* SlimMiniProjet.xcdatamodel */,
+			);
+			currentVersion = 546E87EA23898D0000C934F6 /* SlimMiniProjet.xcdatamodel */;
+			path = SlimMiniProjet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 546E87D723898CFF00C934F6 /* Project object */;
+}
